@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="standard">
+
+    <canvas id="canvas" width="360" height="600"></canvas>
+    <canvas id="characanvas" width="300" height="650"></canvas>
+
+    <br>
+
+    <div class="titlebtnarea">
+        <p id="title"></p>
+        <img src="images/btn/newgamebtn.png" id="newbtn" class="button" style="visibility : hidden" ontouchstart="">
+    </div>
+
+    <div id="continuearea" style="visibility : hidden">
+        <p id="hukkatunojumonn">入力してください</p>
+        <input type="text" id="hukkatunojumonntext" required>
+        <img src="images/btn/Enterbtn.png" id="hukkatunojumonnenter" class="button">
+
+    </div>
+
+    <div id="storydiv" style="visibility : hidden">
+        <p id="storytext">a</p>
+    </div>
+
+    <div id="selectdiv" style="visibility : hidden"></div>
+    <img src="images/btn/Returnbtn.png" id="returnbtn">
+
+
+
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+<script src="episode/storyscene.js"></script>
+<script src="episode/selectscene.js"></script>
+<script src="episode/endingselectscene.js"></script>
+
+
+<script src="function/episodedraw.js"></script>
+<script src="function/judge.js"></script>
+
+
+
+
+</html>
